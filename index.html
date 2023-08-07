@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="barra.css" />
+        <title>Reproductor-de-musica </title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="card">
+        <div class="image-container" id="image-container">
+          <div class="circle-back" id="circle-back"></div>
+          <img class="image" id="image" src="img/dumb.jpg" />
+        </div>
+        <div class="controls-container">
+          <button class="btn-play" id="play-btn">
+            <i id="control-icon" class="fas fa-play"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="volumen" id="volumen">
+      <div class="barra" id="barra"></div>
+    </div>
+    <audio src="mp3\y2meta.com - Dumb (256 kbps).mp3" id="audio"></audio>
+    <script src="control.js"></script>
+  </body>
+</html>
